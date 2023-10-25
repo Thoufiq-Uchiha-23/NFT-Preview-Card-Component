@@ -1,0 +1,152 @@
+/* *{
+    width: 100%;
+    height: 100%;
+} */
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.container{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    height: 630px;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    background-color: hsl(216, 50%, 16%);
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: -1px 10px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.main-image img{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 345px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.heading{
+    border: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    justify-items: left;
+    font-family: Outfit;
+    font-weight: 600;
+    line-height: 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+.caption{
+    border: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    font-size: 19px;
+    line-height: 30px;
+    font-family: Outfit;
+    text-align: left;
+    /* letter-spacing: 1px; */
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.ethereum{
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.ethereum img{
+    border: none;
+    width: 14px;
+    margin-left: 5px;
+    display: inline-block;
+    position: relative;
+    padding: 10px 5px 10px 10px;
+}
+.unit{
+    border: none;
+    display: inline-block;
+    font-size: 19px;
+    font-family: Outfit;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    vertical-align: top;
+    padding-top: 1px;
+
+}
+.clock{
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.clock img{
+    border: none;
+    width: 25px;
+    padding-top: 11px;
+    padding-right: 4px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+.days{
+    border: none;
+    display: inline-block;
+    position: relative;
+    font-size: 19px;
+    font-family: Outfit;
+    font-weight: 300;
+    padding-top: 1px;
+    color: hsl(215, 51%, 70%);
+    vertical-align: top;
+    margin-right: 15px;
+}
+
+hr{
+    display: block;
+    border: none;
+    border-top: 1px solid;
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.avatar img{
+    border: none;
+    border: 2px solid hsl(0, 0%, 100%);
+    width: 40px;
+    border-radius: 25px;
+    margin: 15px;
+    display: inline-block;
+
+}
+.profile-description{
+    border: none;
+    display: inline-block;
+    position: relative;
+    font-size: 19px;
+    font-family: Outfit;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    vertical-align: top;
+    padding-top: 17px;
+}
+
+.profile-description span{
+    color: hsl(0, 0%, 100%);
+}
